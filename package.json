@@ -1,0 +1,27 @@
+{
+  "name": "curso-cypress-v2",
+  "version": "1.0.0",
+  "description": "Portfólio do projeto que tem como finalidade testar todas as funcionalidades da aplicação **CAC TAT** utilizando o cypress",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Testing",
+    "Cypress.io",
+    "Talking About Testing",
+    "Cypress Básico",
+    "Escola TAT"
+  ],
+  "author": "Marillia Dantas",
+  "license": "",
+  "homepage": "",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}
