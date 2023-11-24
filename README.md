@@ -1,6 +1,6 @@
 # **Testes automatizados com Cypress**
 
-Esse projeto tem como finalidade testar todas as funcionalidades da aplicação **CAC TAT** utilizando o cypress.
+Exemplo de projeto para o curso básico da escola online Talking About Testing.
 
 ## Pré-requisitos
 
@@ -14,13 +14,19 @@ Execute `npm install` (ou `npm i` para a versão curta) para instalar as depend�
 
 ## Testes
 
-> **Note:** Antes de executar os testes, faça uma cópia do arquivo `cypress.env.example.json` como `cypress.env.json`, que no mundo real, você atualizaria com credenciais válidas.
->
-> O arquivo `cypress.env.json` está incluído em [`.gitignore`](./.gitignore) e você está seguro de que informações confidenciais não serão controladas.
+Você pode executar a simulação de um desktop ou viewport móvel.
 
-Execute `npm test` (ou `npm t` para a versão curta) para executar o teste no modo headless.
+### Desktop
 
-Ou execute `npm run cy:open` para abrir o Cypress no modo interativo.
+Execute `npm test` (ou `npm t` para a versão curta) para executar o teste no modo headless em uma janela de visualização da área de trabalho.
+
+Ou execute `npm run cy:open` para abrir o Cypress no modo interativo em uma janela de visualização da área de trabalho.
+
+### Mobile
+
+Execute `npm run test:mobile` (ou `npm t` para a versão curta) para executar o teste no modo headless em uma viewport móvel.
+
+Ou execute `npm run cy:open:mobile` para abrir o Cypress no modo interativo em uma viewport móvel.
 
 ---
 
